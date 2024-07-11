@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vivify Academy - HTML/CSS vezbe 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--
+        HTML/CSS zadatak 1
+        Za prvu sliku postaviti ispravnu putanju i promeniti veličinu slike na 250px širine i 400px visine. Druga slika je namerno nedostupna. Postaviti njen alternativni tekst.
+    -->
+    <img src="images/logo.jpg" width="250" height="400">    
+    <img src="undefined.jpg" alt="pas" width="135" height="50">
+    
+    
+    <!--
+        HTML/CSS zadatak 2
+        Postaviti odgovarajuće tagove za sledeći tekst:
+
+        "Universal Studios Presents" je najvažniji.
+        "Jurassic Park" je sledeci po važnosti.
+        "About" je manje važan od "Jurassic Park".
+
+        Poslednja rečenica je paragraf.
+    -->
+
+    <h1>Universal Studios Presents</h1>
+    <h2>Jurassic Park</h2>
+    <h3>About</h3>
+    <p>
+        On the Island of Isla Nublar, a new park has been built: 
+        Jurassic Park is a theme park of cloned dinosaurs!!
+    </p>
+    
+    
+    <!--
+        HTML/CSS zadatak 3
+        Centrirati i povećati veličinu paragrafa na 50px i promeniti boju teksta u crvenu.
+    -->
+    
+    <p class="paragraph-center">This is a paragraph.</p>
+
+    <!--
+        HTML/CSS zadatak 4
+        Napraviti dva linka. Prvi je relativan i pokazuje na about stranicu, 
+        a drugi je apsolutan i pokazuje na google.com.
+    -->
+    
+    <a href="pages/about.html">About Us</a>
+    <a href="https://google.com">Google</a>
+
+    
+    <!--
+        HTML/CSS zadatak 5
+        Promeniti listu da prikazuje slova umesto brojeva. 
+        Dodati unordered listu unutar jednog item-a ordered liste.
+    -->
+    
+	<ol>
+	    <li>
+            Coffee
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        </li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+	</ol>
+
+    
+    <!--
+        HTML/CSS zadatak 6
+        Dodati u formu text area sa imenom 'note'. 
+        Dodati text input sa imenom 'name'. 
+        Napraviti dropdown listu unutar forme (select element) sa imenom 'cars' i 
+        dodati sledeće opcije: "volvo", "ford", "fiat" i "audi". 
+        Postaviti submit button sa tekstom 'Dodaj'.
+    -->
+    
+	<form>
+        <textarea name="note"></textarea>
+        <input type="text" name="name" />
+        <select name="cars">
+            <option value="volvo">volvo</option>
+            <option value="ford">ford</option>
+            <option value="fiat">fiat</option>
+            <option value="audi">audi</option>
+        </select>
+        <button type="submit">Dodaj</button>
+	</form>
+</body>
+</html>

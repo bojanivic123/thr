@@ -1,0 +1,35 @@
+input:focus {
+    background-color: lightblue;
+}
+
+p:first-child {
+    background-color: lightblue;
+}
+
+p.highlight:hover{
+    background-color: lightblue;
+}
+
+.before-after:before,
+.before-after:after {
+    content: url(../images/favicon.png);
+}
+
+.first-line{
+    color: green;
+}
+
+table, th, td{
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    /* border: 2px solid green; */
+}
+
+td{
+    text-align: right;
+}
+
+th{
+    background-color: lightblue;
+}

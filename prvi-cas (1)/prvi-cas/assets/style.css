@@ -1,0 +1,13 @@
+h1, h2, h3, ul {
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    text-align: right;
+}
+
+ol, ul{
+    list-style-type: circle;
+}
+
